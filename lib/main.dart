@@ -36,7 +36,6 @@ class SplashScreenState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    final String ChakraPetch = 'ChakraPetch';
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 69, 163, 141),
         body: Center(
@@ -46,7 +45,7 @@ class SplashScreenState extends State<MyHomePage> {
               children: [
                 Image.asset(
                   '../img/logo.png',
-                  height: 120,
+                  height: 130,
                 ),
                 SizedBox(
                   height: 20,
